@@ -6,7 +6,7 @@ response = gets.chomp
 while response != 'q'
 	puts "First?"
 	first = gets.to_f
-	puts = "Second?"
+	puts "Second?"
 	second = gets.to_f
 
 	if response == 'a'
