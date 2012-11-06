@@ -1,3 +1,13 @@
 class Person
-end
+	attr_accessor :name, :age, :gender
 
+	def initialize(n, a, g)
+		@name = n
+		@age = a
+		@gender = g
+	end
+
+	def to_s
+		"#{name} #{age} #{gender}"
+	end
+end
