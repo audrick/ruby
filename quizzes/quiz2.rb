@@ -1,21 +1,23 @@
 require 'pry'
 
+total = 0
 (250..180000).each do |x|
-	puts "the sum of the numbers is #{x + x}"
+	total = total + x
+	puts "the sum of the numbers is #{total}"
 
 end
 
 
-	puts "(i)nput a color or (q)uit"
-	response = gets.chomp
+colors = []
+puts "Enter a color or (q)uit"
+color = gets.chomp
 
-	# if user responds with q, show all color inputs
-	while response != 'q'
-		if ('q') 
+while color != 'q'
+	colors << color
 
-	colors = []
-	puts colors (0)
-
-
+	puts "Enter a color or (q)uit"
+	color = gets.chomp
 end
+
+puts "you entered #{colors.join(', ')}"
 
