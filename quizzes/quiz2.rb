@@ -3,6 +3,7 @@ require 'pry'
 total = 0
 (250..180000).each do |x|
 	total = total + x
+	# total += x
 	puts "the sum of the numbers is #{total}"
 
 end
