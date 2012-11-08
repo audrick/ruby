@@ -1,0 +1,41 @@
+Dinnertime V2
+
+(1) Change dinner to plate  = []
+
+(2) Offer user way to create "weekly menus" (as hash)
+key is the week's date and value is the menu object
+
+(3) Offer user abuility to create a plate 
+user creates plate
+
+(4) As user if they want to:
+- add that plate to an existing meue
+- or create a new menu
+
+
+
+
+
+
+Homework
+
+Create an interactive program
+
+(1) Create a class called Person
+		name
+		type (kid, adult)
+		menus = []
+
+(2) Select from the available menus 
+
+(3) Print out the people
+	Print out the menus
+
+
+Wrinkle:
+
+(a) if the person is a kid, you cannot give them a menu if any day in that menu is > 1000 calories
+
+Are you trying to get the kid fat?
+
+

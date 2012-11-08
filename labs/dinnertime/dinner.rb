@@ -44,6 +44,7 @@ while response != 'q'
 
 end
 
+# .inject to cycle through dinner array and sum up below
 total_calories = dinner.map {|food| food.calories_per_serving * food.number_of_servings}.inject(&:+)
 total_prep = dinner.map {|food| food.prep_time}.inject(&:+)
 
