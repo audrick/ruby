@@ -1,0 +1,7 @@
+Quiz 5:
+
+Create 7 classes 
+and show the inheritance
+
+Son, Daughter, Father, Mother, Uncle, Cousin, Grandmother
+
