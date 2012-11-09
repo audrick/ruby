@@ -8,7 +8,11 @@
 require 'pry'
 
 
-class Math
-	attr_accessor :factorial
+class Integer
+  def factorial
+    return 1 if self <= 1
+    self * (self-1).factorial
+  end
+end
 
-	
+puts 5.factorial
