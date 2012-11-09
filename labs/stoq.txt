@@ -1,0 +1,42 @@
+# Step 1
+
+# create a user 
+# what is their name?
+# what is their password?
+# how much cash do they have?
+# create as many users as you want, e.g. 3?
+
+# Step 2
+
+# be able to log-in as that user
+# login as that user?
+	# ["Joe", "sally", or "jim"]
+
+# user needs to log-in correctly, if password is incorrect, can't get inject
+
+# once user gets in, they can buy stock
+
+# Step 3
+
+# user has stock
+
+# user can purchase stock
+	# enter the stock symbol
+	# how many shares do you want to buy?
+	# use last trade price as the purchase price
+
+	# if not enough money, some kind of message
+
+# do this as a loop
+
+#Step 4
+
+# show stoq dashboard
+# show current stock price
+# show the change from last quote (e.g. -0.13)
+# show the average stock price
+# show the number of shares you have
+# show how much you have in the stock (shares * last stock price)
+
+# stoq dashboard must run in a loop
+# screen needs to refresh
